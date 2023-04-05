@@ -10,7 +10,7 @@ This project is about creating a basic text classification program which doesnâ€
 - The Markov Property states that the probability of the current event only depends on the probability of the preceding timestamp
 - Markov property in mathematical terms means the following :
     
-    ![Screenshot 2023-04-01 at 2.47.52 PM.png](Text%20Classification%20Using%20Markov%20Model%20and%20Bayes%20D%203fe8816ce7714941aee4fa78916a9f1d/Screenshot_2023-04-01_at_2.47.52_PM.png)
+    ![Screenshot 2023-04-01 at 2.47.52 PM.png](Screenshot_2023-04-01_at_2.47.52_PM.png)
     
 
 ### Is it correct to assume Markov Property in sequence of textual data :
@@ -36,7 +36,7 @@ NO !! logically it is incorrect to assume this property as this property states 
 6. Create a function to fill the above matrices and arrays
 7. Apply probability smoothing on the values of the arrays and matrices, and then take log probabilities of these values (check notebook for better understanding)
     
-    ![Screenshot 2023-04-01 at 7.55.25 PM.png](Text%20Classification%20Using%20Markov%20Model%20and%20Bayes%20D%203fe8816ce7714941aee4fa78916a9f1d/Screenshot_2023-04-01_at_7.55.25_PM.png)
+    ![Screenshot 2023-04-01 at 7.55.25 PM.png](Screenshot_2023-04-01_at_7.55.25_PM.png)
     
 8. Calculate prior log probabilities of the classes
 9. Using Markov property create an evaluate function which uses Bayes Decision Rule
